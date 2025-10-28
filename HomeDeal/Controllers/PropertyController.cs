@@ -27,10 +27,26 @@ namespace HomeDeal.Controllers
 
         // GET api/<PropertyController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public ActionResult Get(int id)
         {
-            return "value";
+
+            Property foundProperty = null;
+            foreach (var prop in properties)
+            {
+                if (prop.PropertyId == id)
+                {
+                    foundProperty = prop;
+                    break;
+                }
+            }
+            if (foundProperty == null)
+            {
+                return NotFound($"Property with Id {id} not found");
+            }
+
+            return Ok(foundProperty);
         }
+
 
         // POST api/<PropertyController>
         [HttpPost]

@@ -25,13 +25,27 @@ namespace HomeDeal.Controllers
         {
             return buyers;
         }
-        
+
         // GET api/<BuyerController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public ActionResult Get(int id)
         {
-            return "value";
+            Buyer foundBuyer = null;
+            foreach (var Buy in buyers) { 
+                if (Buy.BuyerId == id)
+                {
+                    foundBuyer = Buy;
+                    break;
+                }
         }
+            if (foundBuyer == null)
+            {
+                return NotFound($"Buyer with Id {id} not found");
+            }
+
+            return Ok(foundBuyer);
+        }
+        
 
         // POST api/<BuyerController>
         [HttpPost]
