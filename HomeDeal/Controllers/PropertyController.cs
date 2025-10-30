@@ -9,12 +9,11 @@ namespace HomeDeal.Controllers
     [ApiController]
     public class PropertyController : ControllerBase
     {
-        private List<Property> properties = new List<Property>
+        private readonly DataContext _Context;
+        public PropertyController(DataContext context)
         {
-            new Property{PropertyId=1000,Adress="Raby Akiva 48,Beny-Brak",Price=2700000,NumberOfRooms=4.5,IsActiv=false},
-            new Property{PropertyId=2000,Adress="Raby yehuda hanasi 56,Petah-tikva",Price=3500000,NumberOfRooms=6.5,IsActiv=true},
-            new Property{PropertyId=3000,Adress="wayzman 14,Herzelya",Price=4500000,NumberOfRooms=8,IsActiv=true}
-        };
+            _Context = context;
+        }
 
 
 
@@ -22,7 +21,7 @@ namespace HomeDeal.Controllers
         [HttpGet]
         public List<Property> Get()
         {
-            return properties;
+            return _Context.Property;
         }
 
         // GET api/<PropertyController>/5
@@ -31,7 +30,7 @@ namespace HomeDeal.Controllers
         {
 
             Property foundProperty = null;
-            foreach (var prop in properties)
+            foreach (var prop in _Context.Property)
             {
                 if (prop.PropertyId == id)
                 {

@@ -9,13 +9,11 @@ namespace HomeDeal.Controllers
     [ApiController]
     public class SellerController : ControllerBase
     {
-        private List<Seller> sellers = new List<Seller>
+        private readonly DataContext _context; 
+        public SellerController(DataContext context)
         {
-            new Seller{SellerId=100,FullName="Ben natan",Phone="0586621145",Email="ben@gmail.com"},
-            new Seller{SellerId=200,FullName="David shir",Phone="0546665520",Email="david@gmail.com"},
-            new Seller{SellerId=300,FullName="yael ram",Phone="0521159963",Email="yaelram@gmail.com"}
-        };
-
+           _context = context;
+        }
 
 
 
@@ -24,7 +22,7 @@ namespace HomeDeal.Controllers
         [HttpGet]
         public List<Seller> Get()
         {
-            return sellers;
+            return _context.Seller;
         }
 
         // GET api/<SellerController>/5
@@ -33,7 +31,7 @@ namespace HomeDeal.Controllers
         {
 
             Seller foundSellers = null;
-            foreach (var sellery in sellers)
+            foreach (var sellery in _context.Seller)
             {
                 if (sellery.SellerId == id)
                 {
