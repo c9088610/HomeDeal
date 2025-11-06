@@ -15,6 +15,10 @@ namespace HomeDeal.Controllers
            _context = context;
         }
 
+        public SellerController()
+        {
+        }
+
 
 
 

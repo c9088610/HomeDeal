@@ -7,7 +7,69 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net8.0\HomeDeal.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net8.0\HomeDeal.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net8.0\HomeDeal.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\HomeDeal.deps.json" />
+    <Content Include="bin\Debug\net8.0\HomeDeal.runtimeconfig.json" />
+    <Content Include="bin\Debug\net8.0\HomeDeal.staticwebassets.endpoints.json" />
+    <Content Include="obj\Debug\net8.0\ApiEndpoints.json" />
+    <Content Include="obj\Debug\net8.0\EndpointInfo\HomeDeal.json" />
+    <Content Include="obj\Debug\net8.0\HomeDeal.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net8.0\HomeDeal.sourcelink.json" />
+    <Content Include="obj\Debug\net8.0\rjsmcshtml.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\rjsmrazor.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\rpswa.dswa.cache.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.endpoints.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.references.upToDateCheck.txt" />
+    <Content Include="obj\Debug\net8.0\staticwebassets.removed.txt" />
+    <Content Include="obj\HomeDeal.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\HomeDeal.dll" />
+    <None Include="bin\Debug\net8.0\HomeDeal.exe" />
+    <None Include="bin\Debug\net8.0\HomeDeal.pdb" />
+    <None Include="bin\Debug\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="obj\Debug\net8.0\apphost.exe" />
+    <None Include="obj\Debug\net8.0\EndpointInfo\HomeDeal.OpenApiFiles.cache" />
+    <None Include="obj\Debug\net8.0\HomeDeal.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net8.0\HomeDeal.assets.cache" />
+    <None Include="obj\Debug\net8.0\HomeDeal.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net8.0\HomeDeal.csproj.BuildWithSkipAnalyzers" />
+    <None Include="obj\Debug\net8.0\HomeDeal.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net8.0\HomeDeal.csproj.Up2Date" />
+    <None Include="obj\Debug\net8.0\HomeDeal.dll" />
+    <None Include="obj\Debug\net8.0\HomeDeal.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net8.0\HomeDeal.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net8.0\HomeDeal.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net8.0\HomeDeal.pdb" />
+    <None Include="obj\Debug\net8.0\refint\HomeDeal.dll" />
+    <None Include="obj\Debug\net8.0\ref\HomeDeal.dll" />
+    <None Include="obj\Debug\net8.0\staticwebassets.build.json.cache" />
+    <None Include="obj\HomeDeal.csproj.nuget.g.props" />
+    <None Include="obj\HomeDeal.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+    <None Include="UnitTest\UnitTest.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="obj\Debug\net8.0\staticwebassets\" />
   </ItemGroup>
 
 </Project>
