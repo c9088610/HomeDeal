@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -61,7 +61,6 @@
     <None Include="obj\HomeDeal.csproj.nuget.g.props" />
     <None Include="obj\HomeDeal.csproj.nuget.g.targets" />
     <None Include="obj\project.nuget.cache" />
-    <None Include="UnitTest\UnitTest.csproj" />
   </ItemGroup>
 
   <ItemGroup>

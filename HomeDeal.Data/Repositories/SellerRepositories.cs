@@ -1,4 +1,6 @@
-﻿using HomeDeal.entities;
+﻿using HomeDeal.C.Repositories;
+using HomeDeal.Core.Service;
+using HomeDeal.entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,17 +9,22 @@ using System.Threading.Tasks;
 
 namespace HomeDeal.Data.Repositories
 {
-    public class SellerRepositories
+    public class SellerRepositories : ISellerRepositories
     {
-        public readonly DataContext _context;
+        private readonly DataContext _context;
         public SellerRepositories(DataContext context)
         {
             _context = context;
         }
-       
         public List<Seller> GetList()
         {
-            return _context.Seller;
+            return _context.Seller.ToList();
+
+        }
+        public Seller GetById(int id)
+        {
+            var s = _context.Seller.ToList().Find(x => x.SellerId == id);
+            return s;
         }
     }
 }

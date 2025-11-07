@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj": {}
+    "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\HomeDeal.csproj": {}
   },
   "projects": {
-    "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj": {
+    "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\HomeDeal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
+        "projectUniqueName": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
         "projectName": "HomeDeal",
-        "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\obj\\",
+        "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
+        "packagesPath": "C:\\Users\\shufra\\.nuget\\packages\\",
+        "outputPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shufra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -75,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
