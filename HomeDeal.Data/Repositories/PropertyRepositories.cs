@@ -1,6 +1,6 @@
-﻿using HomeDeal.C.Repositories;
+﻿using HomeDeal.Core.Repositories;
 using HomeDeal.Core.Service;
-using HomeDeal.entities;
+using HomeDeal.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

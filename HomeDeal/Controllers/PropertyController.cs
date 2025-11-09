@@ -1,4 +1,5 @@
-﻿using HomeDeal.entities;
+﻿using HomeDeal.Core.Entities;
+using HomeDeal.Core.Service;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -9,10 +10,10 @@ namespace HomeDeal.Controllers
     [ApiController]
     public class PropertyController : ControllerBase
     {
-        private readonly DataContext _Context;
-        public PropertyController(DataContext context)
+        private readonly IPropertyService _propertyService;
+        public PropertyController(IPropertyService propertyService)
         {
-            _Context = context;
+            _propertyService = propertyService;
         }
 
 
@@ -21,7 +22,7 @@ namespace HomeDeal.Controllers
         [HttpGet]
         public List<Property> Get()
         {
-            return _Context.Property;
+            return _propertyService.GetList();
         }
 
         // GET api/<PropertyController>/5
@@ -30,7 +31,7 @@ namespace HomeDeal.Controllers
         {
 
             Property foundProperty = null;
-            foreach (var prop in _Context.Property)
+            foreach (var prop in _propertyService.Property)
             {
                 if (prop.PropertyId == id)
                 {

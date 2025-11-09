@@ -1,7 +1,6 @@
-﻿using HomeDeal.entities;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-
+﻿using Microsoft.AspNetCore.Mvc;
+using HomeDeal.Core.Service;
+using HomeDeal.Core.Entities;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace HomeDeal.Controllers
@@ -10,17 +9,18 @@ namespace HomeDeal.Controllers
     [ApiController]
     public class BuyerController : ControllerBase
     {
-        private readonly DataContext _Context;
-        public BuyerController(DataContext context)
+        private readonly IBuyerService _buyerService;
+        public BuyerController(IBuyerService buyerService)
         {
-            _Context = context;
+            _buyerService = buyerService;
         }
-             
+
+
         // GET: api/<BuyerController>
         [HttpGet]
-        public List<Buyer> Get()
+        public IEnumerable<Buyer> Get()
         {
-            return _Context.Buyer;
+            return _buyerService.GetList();
         }
 
         // GET api/<BuyerController>/5
@@ -28,7 +28,7 @@ namespace HomeDeal.Controllers
         public ActionResult Get(int id)
         {
             Buyer foundBuyer = null;
-            foreach (var Buy in _Context.Buyer) { 
+            foreach (var Buy in _buyerService.Buyer) { 
                 if (Buy.BuyerId == id)
                 {
                     foundBuyer = Buy;

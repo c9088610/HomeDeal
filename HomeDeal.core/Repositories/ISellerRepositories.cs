@@ -1,4 +1,4 @@
-﻿using HomeDeal.entities;
+﻿using HomeDeal.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

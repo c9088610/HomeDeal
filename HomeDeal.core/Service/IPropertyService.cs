@@ -1,4 +1,4 @@
-﻿using HomeDeal.entities;
+﻿using HomeDeal.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 
 namespace HomeDeal.Core.Service
 {
-    public interface IBuyerRepositories
+    public interface IPropertyService
     {
 
-        public List<Buyer> GetList();
-        public Buyer GetById(int id);
+        public List<Property> GetList();
+        public Property GetById(int id);
+
 
     }
 }
+

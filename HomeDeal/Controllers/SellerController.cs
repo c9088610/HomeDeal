@@ -1,18 +1,21 @@
-﻿using HomeDeal.entities;
+﻿using HomeDeal.Core.Service;
+using HomeDeal.Core.Entities;
 using Microsoft.AspNetCore.Mvc;
+ 
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace HomeDeal.Controllers
 {
+
     [Route("api/[controller]")]
     [ApiController]
     public class SellerController : ControllerBase
     {
-        private readonly DataContext _context; 
-        public SellerController(DataContext context)
+        private readonly ISellerService _SellerService; 
+        public SellerController(ISellerService SellerService)
         {
-           _context = context;
+            _SellerService = SellerService;
         }
 
         public SellerController()
@@ -26,7 +29,7 @@ namespace HomeDeal.Controllers
         [HttpGet]
         public List<Seller> Get()
         {
-            return _context.Seller;
+            return _SellerService.GetList();
         }
 
         // GET api/<SellerController>/5
@@ -35,7 +38,7 @@ namespace HomeDeal.Controllers
         {
 
             Seller foundSellers = null;
-            foreach (var sellery in _context.Seller)
+            foreach (var sellery in _SellerService.Seller)
             {
                 if (sellery.SellerId == id)
                 {

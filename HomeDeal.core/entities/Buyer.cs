@@ -1,4 +1,4 @@
-﻿namespace HomeDeal.entities
+﻿namespace HomeDeal.Core.Entities
 {
     public class Buyer
     {
