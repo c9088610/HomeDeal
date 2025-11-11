@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HomeDeal.Core.Service
 {
-    public interface ISellerRepositories
+    public interface ISellerService
     {
 
         public List<Seller> GetList();

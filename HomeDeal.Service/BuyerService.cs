@@ -9,23 +9,19 @@ using System.Threading.Tasks;
 
 namespace HomeDeal.Service
 {
-    public class BuyerServic : IBuyerService
+    public class BuyerService(IBuyerRepositories buyerRepository) : IBuyerService
     {
-        private readonly IBuyerRepository _buyerRepository;
-        public BuyerServic(IBuyerRepository buyerRepository)
-        {
-            _buyerRepository = buyerRepository;
-        }
-        public List<Buyer> GetBuyers()
-        {
-            return _buyerRepository.GetAllBuyer();
+        private readonly IBuyerRepositories _buyerRepository = buyerRepository;
 
-        }
-        public Buyer GetBuyer (int id)
+        public List<Buyer> GetList()
         {
-            return _buyerRepository.GetById(id);
+            return _buyerRepository.GetList();
         }
 
+        public Buyer GetById(int id)
+        {
+            return _buyerRepository.GetById(id);;
+        }
     }
 
 }

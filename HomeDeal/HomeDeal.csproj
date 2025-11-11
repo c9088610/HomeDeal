@@ -71,4 +71,8 @@
     <Folder Include="obj\Debug\net8.0\staticwebassets\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HomeDeal.Service\HomeDeal.Service.csproj" />
+  </ItemGroup>
+
 </Project>
