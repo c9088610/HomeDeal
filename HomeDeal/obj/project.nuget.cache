@@ -1,9 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "H6klf2qgy8GsQxA3s9VsEOxr1l2iq86nOGFi7PJNt1qKV8WJ7AYi5qH/Qwoy7CuFz/sEmNs3P65FeMA/VPbymQ==",
+=======
+  "dgSpecHash": "3jwsiLo2yNM=",
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
   "success": true,
-  "projectFilePath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
+  "projectFilePath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
   "expectedPackageFiles": [
+<<<<<<< HEAD
     "C:\\Users\\shufra\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\shufra\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\shufra\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -48,6 +53,14 @@
     "C:\\Users\\shufra\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\shufra\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\shufra\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+=======
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
   ],
   "logs": []
 }

@@ -649,6 +649,7 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+<<<<<<< HEAD
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -924,6 +925,29 @@
         },
         "runtime": {
           "bin/placeholder/HomeDeal.Core.dll": {}
+=======
+      "HomeDeal.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/HomeDeal.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeDeal.Core.dll": {}
+        }
+      },
+      "HomeDeal.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "HomeDeal.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HomeDeal.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HomeDeal.Service.dll": {}
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
         }
       }
     }
@@ -2198,6 +2222,7 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
+<<<<<<< HEAD
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -2621,37 +2646,53 @@
         "useSharedDesignerContext.txt"
       ]
     },
+=======
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
     "HomeDeal.Core/1.0.0": {
       "type": "project",
       "path": "../HomeDeal.core/HomeDeal.Core.csproj",
       "msbuildProject": "../HomeDeal.core/HomeDeal.Core.csproj"
+<<<<<<< HEAD
+=======
+    },
+    "HomeDeal.Service/1.0.0": {
+      "type": "project",
+      "path": "../HomeDeal.Service/HomeDeal.Service.csproj",
+      "msbuildProject": "../HomeDeal.Service/HomeDeal.Service.csproj"
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "HomeDeal.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
+=======
+      "HomeDeal.Service >= 1.0.0",
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shufra\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
+      "projectUniqueName": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
       "projectName": "HomeDeal",
-      "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
-      "packagesPath": "C:\\Users\\shufra\\.nuget\\packages\\",
-      "outputPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal\\obj\\",
+      "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\shufra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2660,15 +2701,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
               "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj"
+=======
+            "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\HomeDeal.Service.csproj": {
+              "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\HomeDeal.Service.csproj"
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
             }
           }
         }
@@ -2682,7 +2727,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -2718,7 +2764,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

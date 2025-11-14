@@ -11,21 +11,21 @@ namespace HomeDeal.Service
 {
     public class PropertyServic : IPropertyService
     {
-        private readonly IPropertyService _propertyservice;
-        public PropertyServic(IPropertyService propertyservice)
+        private readonly IPropertyRepositories _propertyRepository;
+        public PropertyServic(IPropertyRepositories propertyRepository)
         {
-            _propertyservice = propertyservice;
+            _propertyRepository = propertyRepository;
         }
-        public List<Buyer> GetAll()
+        public List<Property> GetList()
         {
-            return _propertyservice.GetAll();
+            return _propertyRepository.GetList();
 
         }
-        public Buyer GetById(int id)
+        public Property GetById(int id)
         {
-            return _buyerRepository.GetById(id);
+            return _propertyRepository.GetById(id);
         }
+
 
     }
-
 }

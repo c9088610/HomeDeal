@@ -3,8 +3,76 @@
   "WorkspaceRootPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal\\homedeal.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|solutionrelative:homedeal\\homedeal.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|solutionrelative:homedeal\\controllers\\buyercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|solutionrelative:homedeal\\controllers\\sellercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B423073E-7D0F-4CA4-9D48-D83D3ED729F7}|HomeDeal\\HomeDeal.csproj|solutionrelative:homedeal\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\service\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\service\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\service\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\service\\ipropertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\service\\ibuyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\service\\ibuyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\repositories\\isellerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\repositories\\isellerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\repositories\\ipropertyrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\repositories\\ipropertyrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\repositories\\ibuyerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\repositories\\ibuyerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\entities\\property.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.core\\entities\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B598689-F8B8-44FB-902B-51E2EFE4A4E2}|HomeDeal.core\\HomeDeal.Core.csproj|solutionrelative:homedeal.core\\entities\\buyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F5628B-314D-4FA1-BB36-670F0FF99F26}|HomeDeal.Data\\HomeDeal.Data.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.data\\repositories\\buyerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F5628B-314D-4FA1-BB36-670F0FF99F26}|HomeDeal.Data\\HomeDeal.Data.csproj|solutionrelative:homedeal.data\\repositories\\buyerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F5628B-314D-4FA1-BB36-670F0FF99F26}|HomeDeal.Data\\HomeDeal.Data.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.data\\repositories\\propertyrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F5628B-314D-4FA1-BB36-670F0FF99F26}|HomeDeal.Data\\HomeDeal.Data.csproj|solutionrelative:homedeal.data\\repositories\\propertyrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F5628B-314D-4FA1-BB36-670F0FF99F26}|HomeDeal.Data\\HomeDeal.Data.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.data\\repositories\\sellerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F5628B-314D-4FA1-BB36-670F0FF99F26}|HomeDeal.Data\\HomeDeal.Data.csproj|solutionrelative:homedeal.data\\repositories\\sellerrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E8398A-4F68-4BEF-A5C1-5F6CFCAAAFFF}|HomeDeal.Service\\HomeDeal.Service.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.service\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E8398A-4F68-4BEF-A5C1-5F6CFCAAAFFF}|HomeDeal.Service\\HomeDeal.Service.csproj|solutionrelative:homedeal.service\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E8398A-4F68-4BEF-A5C1-5F6CFCAAAFFF}|HomeDeal.Service\\HomeDeal.Service.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.service\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E8398A-4F68-4BEF-A5C1-5F6CFCAAAFFF}|HomeDeal.Service\\HomeDeal.Service.csproj|solutionrelative:homedeal.service\\propertyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8E8398A-4F68-4BEF-A5C1-5F6CFCAAAFFF}|HomeDeal.Service\\HomeDeal.Service.csproj|c:\\b-learn tzofnat\\net\\homedeal\\homedeal.service\\buyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8E8398A-4F68-4BEF-A5C1-5F6CFCAAAFFF}|HomeDeal.Service\\HomeDeal.Service.csproj|solutionrelative:homedeal.service\\buyerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,18 +82,240 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPropertyService.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Service\\IPropertyService.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Service\\IPropertyService.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Service\\IPropertyService.cs",
+              "RelativeToolTip": "HomeDeal.core\\Service\\IPropertyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:59.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISellerRepositories.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Repositories\\ISellerRepositories.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Repositories\\ISellerRepositories.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Repositories\\ISellerRepositories.cs",
+              "RelativeToolTip": "HomeDeal.core\\Repositories\\ISellerRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:48.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ISellerService.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Service\\ISellerService.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Service\\ISellerService.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Service\\ISellerService.cs",
+              "RelativeToolTip": "HomeDeal.core\\Service\\ISellerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:30:09.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeDeal",
-              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
-              "RelativeDocumentMoniker": "HomeDeal\\HomeDeal.csproj",
-              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\HomeDeal.csproj",
-              "RelativeToolTip": "HomeDeal\\HomeDeal.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T09:29:35.186Z",
+              "Title": "BuyerController.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\Controllers\\BuyerController.cs",
+              "RelativeDocumentMoniker": "HomeDeal\\Controllers\\BuyerController.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\Controllers\\BuyerController.cs",
+              "RelativeToolTip": "HomeDeal\\Controllers\\BuyerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:23:07.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "HomeDeal\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "HomeDeal\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:25:22.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SellerController.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\Controllers\\SellerController.cs",
+              "RelativeDocumentMoniker": "HomeDeal\\Controllers\\SellerController.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal\\Controllers\\SellerController.cs",
+              "RelativeToolTip": "HomeDeal\\Controllers\\SellerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:23:12.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IPropertyRepositories.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Repositories\\IPropertyRepositories.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Repositories\\IPropertyRepositories.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Repositories\\IPropertyRepositories.cs",
+              "RelativeToolTip": "HomeDeal.core\\Repositories\\IPropertyRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:46.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IBuyerRepositories.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Repositories\\IBuyerRepositories.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Repositories\\IBuyerRepositories.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Repositories\\IBuyerRepositories.cs",
+              "RelativeToolTip": "HomeDeal.core\\Repositories\\IBuyerRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:44.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Entities\\Seller.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Entities\\Seller.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Entities\\Seller.cs",
+              "RelativeToolTip": "HomeDeal.core\\Entities\\Seller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:40.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Property.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Entities\\Property.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Entities\\Property.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Entities\\Property.cs",
+              "RelativeToolTip": "HomeDeal.core\\Entities\\Property.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:39.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Buyer.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Entities\\Buyer.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Entities\\Buyer.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Entities\\Buyer.cs",
+              "RelativeToolTip": "HomeDeal.core\\Entities\\Buyer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:38.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBuyerService.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Service\\IBuyerService.cs",
+              "RelativeDocumentMoniker": "HomeDeal.core\\Service\\IBuyerService.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\Service\\IBuyerService.cs",
+              "RelativeToolTip": "HomeDeal.core\\Service\\IBuyerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:28:00.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SellerRepositories.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\Repositories\\SellerRepositories.cs",
+              "RelativeDocumentMoniker": "HomeDeal.Data\\Repositories\\SellerRepositories.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\Repositories\\SellerRepositories.cs",
+              "RelativeToolTip": "HomeDeal.Data\\Repositories\\SellerRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:41:19.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PropertyRepositories.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\Repositories\\PropertyRepositories.cs",
+              "RelativeDocumentMoniker": "HomeDeal.Data\\Repositories\\PropertyRepositories.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\Repositories\\PropertyRepositories.cs",
+              "RelativeToolTip": "HomeDeal.Data\\Repositories\\PropertyRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:40:24.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BuyerRepositories.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\Repositories\\BuyerRepositories.cs",
+              "RelativeDocumentMoniker": "HomeDeal.Data\\Repositories\\BuyerRepositories.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\Repositories\\BuyerRepositories.cs",
+              "RelativeToolTip": "HomeDeal.Data\\Repositories\\BuyerRepositories.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:40:22.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SellerService.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\SellerService.cs",
+              "RelativeDocumentMoniker": "HomeDeal.Service\\SellerService.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\SellerService.cs",
+              "RelativeToolTip": "HomeDeal.Service\\SellerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:38:18.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PropertyService.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\PropertyService.cs",
+              "RelativeDocumentMoniker": "HomeDeal.Service\\PropertyService.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\PropertyService.cs",
+              "RelativeToolTip": "HomeDeal.Service\\PropertyService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:38:16.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BuyerService.cs",
+              "DocumentMoniker": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\BuyerService.cs",
+              "RelativeDocumentMoniker": "HomeDeal.Service\\BuyerService.cs",
+              "ToolTip": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Service\\BuyerService.cs",
+              "RelativeToolTip": "HomeDeal.Service\\BuyerService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T22:38:11.859Z",
               "EditorCaption": ""
             }
           ]

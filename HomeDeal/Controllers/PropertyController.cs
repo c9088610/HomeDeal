@@ -1,5 +1,6 @@
 ﻿using HomeDeal.Core.Entities;
 using HomeDeal.Core.Service;
+using HomeDeal.Service;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -25,20 +26,17 @@ namespace HomeDeal.Controllers
             return _propertyService.GetList();
         }
 
-        // GET api/<PropertyController>/5
-        [HttpGet("{id}")]
         public ActionResult Get(int id)
         {
+            return Get(id, _propertyService);
+        }
 
-            Property foundProperty = null;
-            foreach (var prop in _propertyService.Property)
-            {
-                if (prop.PropertyId == id)
-                {
-                    foundProperty = prop;
-                    break;
-                }
-            }
+        // GET api/<PropertyController>/5
+        [HttpGet("{id}")]
+        public ActionResult Get(int id, IPropertyService _propertyService)
+        {
+            Property foundProperty = _propertyService.GetById(id);
+
             if (foundProperty == null)
             {
                 return NotFound($"Property with Id {id} not found");
@@ -46,6 +44,7 @@ namespace HomeDeal.Controllers
 
             return Ok(foundProperty);
         }
+      
 
 
         // POST api/<PropertyController>

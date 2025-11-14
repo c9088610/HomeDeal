@@ -76,7 +76,11 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <ProjectReference Include="..\HomeDeal.core\HomeDeal.Core.csproj" />
+=======
+    <ProjectReference Include="..\HomeDeal.Service\HomeDeal.Service.csproj" />
+>>>>>>> 170903aeed13dbbe72137cc15d784c7c8001020a
   </ItemGroup>
 
 </Project>
