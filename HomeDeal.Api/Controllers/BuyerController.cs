@@ -51,4 +51,8 @@ namespace HomeDeal.Api.Controllers
         {
         }
     }
+
+    public class Buyer
+    {
+    }
 }

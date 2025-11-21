@@ -21,6 +21,7 @@ namespace HomeDeal.Service
         {
             return _buyerRepository.GetList();
         }
+        
     }
 }
 

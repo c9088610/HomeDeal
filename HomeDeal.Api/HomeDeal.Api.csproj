@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\HomeDeal.core\HomeDeal.Core.csproj" />
     <ProjectReference Include="..\HomeDeal.Servies\HomeDeal.Service.csproj" />
   </ItemGroup>
 

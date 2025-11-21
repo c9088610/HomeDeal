@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj": {}
+    "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj": {}
   },
   "projects": {
-    "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj": {
+    "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj",
+        "projectUniqueName": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj",
         "projectName": "HomeDeal.Api",
-        "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Api\\obj\\",
+        "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Api\\HomeDeal.Api.csproj",
+        "packagesPath": "C:\\Users\\shufra\\.nuget\\packages\\",
+        "outputPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shufra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,14 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj": {
-                "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj"
+              "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
+                "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj"
+              },
+              "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj": {
+                "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj"
               }
             }
           }
@@ -48,8 +51,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -79,25 +81,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
+    "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj",
+        "projectUniqueName": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj",
         "projectName": "HomeDeal.Core",
-        "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\obj\\",
+        "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj",
+        "packagesPath": "C:\\Users\\shufra\\.nuget\\packages\\",
+        "outputPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shufra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -106,6 +107,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,8 +125,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -145,25 +146,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj": {
+    "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj",
+        "projectUniqueName": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj",
         "projectName": "HomeDeal.Data",
-        "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\obj\\",
+        "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj",
+        "packagesPath": "C:\\Users\\shufra\\.nuget\\packages\\",
+        "outputPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shufra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -172,14 +172,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
-                "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj"
+              "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
+                "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj"
               }
             }
           }
@@ -193,8 +194,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -215,25 +215,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj": {
+    "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj",
+        "projectUniqueName": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj",
         "projectName": "HomeDeal.Service",
-        "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Servies\\obj\\",
+        "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Servies\\HomeDeal.Service.csproj",
+        "packagesPath": "C:\\Users\\shufra\\.nuget\\packages\\",
+        "outputPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Servies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shufra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -242,17 +241,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
-                "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj"
+              "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj": {
+                "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.core\\HomeDeal.Core.csproj"
               },
-              "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj": {
-                "projectPath": "C:\\b-learn tzofnat\\net\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj"
+              "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj": {
+                "projectPath": "T:\\הנדסת תוכנה\\שנה ב תשפו\\.net core\\תלמידות\\צפנת\\HomeDeal\\HomeDeal.Data\\HomeDeal.Data.csproj"
               }
             }
           }
@@ -266,8 +266,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -288,7 +287,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

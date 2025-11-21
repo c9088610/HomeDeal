@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HomeDeal.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36942925ccc14d00807a62fa0717114ca1d4cd0f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HomeDeal.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HomeDeal.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
