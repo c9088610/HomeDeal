@@ -1,0 +1,11 @@
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\bin\Debug\net8.0\HomeDeal.Core.deps.json
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\bin\Debug\net8.0\HomeDeal.Core.dll
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\bin\Debug\net8.0\HomeDeal.Core.pdb
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\HomeDeal.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\HomeDeal.Core.AssemblyInfoInputs.cache
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\HomeDeal.Core.AssemblyInfo.cs
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\HomeDeal.Core.csproj.CoreCompileInputs.cache
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\HomeDeal.Core.dll
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\refint\HomeDeal.Core.dll
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\HomeDeal.Core.pdb
+C:\b-learn tzofnat\net\HomeDeal\HomeDeal.core\obj\Debug\net8.0\ref\HomeDeal.Core.dll
